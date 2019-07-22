@@ -5,10 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%) /* w3c */
+  background: linear-gradient(89deg, rgb(94, 209, 255) 0%, rgb(95, 128, 129) 100%) /* w3c */
+}
+
+button {
+  cursor: pointer;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.rank {
+  text-align: center;
+}
+
